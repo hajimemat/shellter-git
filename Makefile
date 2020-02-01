@@ -5,4 +5,4 @@ install:
 ~/.gitconfig:
 	ln -s $(realpath _gitconfig) $@
 ~/.gitconfig.local:
-	ln -s $(realpath _gitconfig.local) $@
+	cp $(realpath _gitconfig.local) $@
