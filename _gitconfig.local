@@ -1,0 +1,7 @@
+[mergetool "vimdiff"]
+	path = nvim
+[merge]
+	tool = vimdiff
+[user]
+	name = Hajime MATSUMOTO
+	email = hajime.matsumoto@avap.co.jp
