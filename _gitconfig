@@ -15,6 +15,7 @@
 	filemode = false
 [gpg]
 	program = gpg
+[ghq]
 	root = ~/Repos
 [user]
 	signingKey = ""
