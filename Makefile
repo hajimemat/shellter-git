@@ -1,3 +1,4 @@
+.PHONY: ~/.gitconfig 
 install:
 	make ~/.gitconfig
 	make ~/.gitconfig.local
