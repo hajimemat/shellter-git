@@ -3,6 +3,6 @@ install:
 	make ~/.gitconfig.local
 
 ~/.gitconfig:
-	ln -s $(realpath _gitconfig) $@
+	ln -sfv $(realpath _gitconfig) $@
 ~/.gitconfig.local:
 	cp $(realpath _gitconfig.local) $@
